@@ -13,6 +13,8 @@ class EminuxDwrGrailsPlugin {
     def description = 'Integration between Grails 2.x and DWR'
     def documentation = "http://grails.org/plugin/eminux-dwr"
     def license = "GPL3"
+    def issueManagement = [url: 'https://github.com/emilianofrascaro/eminux-dwr/issues']
+    def scm = [url: 'https://github.com/emilianofrascaro/eminux-dwr']
 
     def doWithWebDescriptor = { xml ->
         def servletElement = xml.'servlet'
