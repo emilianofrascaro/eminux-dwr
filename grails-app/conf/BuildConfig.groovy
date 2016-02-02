@@ -11,6 +11,7 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
+        compile 'org.directwebremoting:dwr:3.0.1-RELEASE'
     }
 
     plugins {
